@@ -1,15 +1,10 @@
-import './App.css';
-import Flowchart from './components/Flowchart';
+import Flow from './components/Flow';
+import 'reactflow/dist/style.css';
 
 function App() {
   return (
     <>
-      <div>
-        <h1>
-          Yoel&apos;s Bachelors of Science in Software Engineering Degree Plan
-          <Flowchart />
-        </h1>
-      </div>
+      <Flow />
     </>
   );
 }

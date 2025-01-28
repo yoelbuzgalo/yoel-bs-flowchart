@@ -4,6 +4,7 @@ import ReactFlow, {
   Background,
   applyNodeChanges,
   applyEdgeChanges,
+  BackgroundVariant,
 } from 'reactflow';
 import 'reactflow/dist/style.css';
 
@@ -48,7 +49,7 @@ function Flow() {
         onEdgesChange={onEdgesChange}
         fitView
       >
-        <Background />
+        <Background color="" variant={BackgroundVariant.Lines} />
         <Controls />
       </ReactFlow>
     </div>
